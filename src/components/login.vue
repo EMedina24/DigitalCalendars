@@ -4,8 +4,11 @@
     <div class="row">
       <div class="col s12 m8 offset-m2">
         <div class="login card-panel white black-text center">
-            <img src="https://cdn3.sportngin.com/attachments/document/afb0-2321593/optimized.png#_ga=2.206018262.459246094.1608479829-634066243.1606313509">
+            <img src="https://cdn3.sportngin.com/attachments/document/afb0-2321593/optimized.png#_ga=2.206018262.459246094.1608479829-634066243.1606313509" width="300px">
           <h3>Login</h3>
+          <p>Thanks for using the Digital content calendar.
+              Please register Or sign-in.
+          </p>
           <form action="index.html">
             <div class="input-field">
               <i class="material-icons prefix">email</i>
