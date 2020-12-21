@@ -13,9 +13,7 @@
         class="text-center"
         cols="12"
       >
-      <img src="https://cdn1.sportngin.com/attachments/document/b726-2321160/optimized.png#_ga=2.268926644.459246094.1608479829-634066243.1606313509" width="300px">
-      <img src="https://cdn2.sportngin.com/attachments/document/d28f-2321164/rnr_logo_2019-removebg-preview.png#_ga=2.259020495.459246094.1608479829-634066243.1606313509" width="300px" height="225px">
-        <h1 class="display-1 font-weight-thin mb-4">
+              <h1 class="display-1 font-weight-thin mb-4">
           Digital Team
         </h1>
         <h4 class="subheading">
