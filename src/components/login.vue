@@ -37,24 +37,28 @@ import firebase from 'firebase';
 export default {
     name:'login',
     data: function() {
+       
     return {
       email: '',
       password: ''
     };
-
+ snackbar: false
+ text: `Hello, I'm a snackbar`
 },
 methods:{
     login:function(e){
         firebase.auth().signInWithEmailAndPassword(this.email,this.password)
          .then(user =>{
-             alert(`logged in as ${user.email}`);
+             alert(`Thank you for logging in`);
              this.$router.push('/calendar');
+             snackbar = true;
          },
          err=>{
             alert (err.message);
          });
       e.preventDefault();  
     }
-}
+},
+
 }
 </script>

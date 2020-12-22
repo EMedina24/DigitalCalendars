@@ -44,7 +44,7 @@ methods:{
     register:function(e){
         firebase.auth().createUserWithEmailAndPassword(this.email,this.password)
          .then(user =>{
-             alert(`account created for ${user.email}`);
+             alert(`account created.Please remember your login information`);
              this.$router.push('/calendar');
          },
          err=>{
