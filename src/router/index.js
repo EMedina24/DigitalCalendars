@@ -23,7 +23,7 @@ let router = new Router({
     {
       path: '/login',
       name: 'login',
-      component: login,
+      component: calendar,
       meta:{
         requiresGuest:true
     }
@@ -39,7 +39,7 @@ let router = new Router({
       {
         path: '/',
         name: 'home',
-        component: login
+        component: calendar
       }
 
   ]

@@ -1,4 +1,5 @@
- <template>
+ 
+<template>
   <nav>
       <div class="nav-wrapper green">
         <div class="container">
@@ -23,13 +24,16 @@
         </div>
       </div>
     </nav>
-  </template>
+</template>
+  
+  
 
-import firebase from 'firebase';
+
 
 
 
 <script>
+import firebase from 'firebase';
 
 export default {
   name: 'navbar',
